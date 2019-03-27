@@ -1,0 +1,11 @@
+aggregationRule:
+  clusterRoleSelectors:
+  - matchLabels:
+      permissions: viewer
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  annotations:
+    nomos.dev/source-path: cluster/aggregate-clusterrole.yaml
+    nomos.dev/sync-token: 829c634776a1ac93348df2550f39f85e5d873142
+  name: aggregate

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    audit: "true"
+  labels:
+    env: prod
+  name: shipping-prod

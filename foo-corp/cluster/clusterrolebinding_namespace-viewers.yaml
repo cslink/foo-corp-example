@@ -1,0 +1,19 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  annotations:
+    nomos.dev/cluster-name: e2e-test-cluster
+    nomos.dev/source-path: cluster/namespace-viewers.yaml
+    nomos.dev/sync-token: 1fac9275554f285518c621fe20b4e14202d74bee
+  name: namespace-viewers
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: namespace-viewer
+subjects:
+- apiGroup: rbac.authorization.k8s.io
+  kind: User
+  name: cheryl@acme.com
+- apiGroup: rbac.authorization.k8s.io
+  kind: User
+  name: cyril@acme.com
