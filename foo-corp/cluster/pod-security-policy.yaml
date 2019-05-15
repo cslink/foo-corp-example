@@ -1,5 +1,6 @@
 apiVersion: extensions/v1beta1
 kind: PodSecurityPolicy
+group: policy
 metadata:
   name: psp
 spec:
