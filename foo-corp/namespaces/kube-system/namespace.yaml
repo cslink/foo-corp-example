@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: kube-system
   labels:
-    difflabel: oinkkkkkkkkkkk
+    otherlabel: mooooooooo
 
