@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: v11111111111
 data:
   game.properties: |
     enemies=aliens
