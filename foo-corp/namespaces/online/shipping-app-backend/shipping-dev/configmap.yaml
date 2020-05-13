@@ -15,4 +15,4 @@ data:
     how.nice.to.look=fairlyNice
 kind: ConfigMap
 metadata:
-  nameeee: game-config
+  name: game-config
